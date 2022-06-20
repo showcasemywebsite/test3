@@ -31,16 +31,16 @@ body{
 
 .container{   
   display:grid;
-  margin: 10px;
   grid-template-columns: repeat(2,1fr);
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width:100%;  
   heigt: 100px;
 }
 .container .card{  
-  position:inherit;    
-  width: 90%;
+  position: relative; 
+  width: 97%;
+	
   height: 50px;
   margin: 10px;
   box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
@@ -52,7 +52,7 @@ body{
   overflow: hidden;
   
   display:flex;
-  justify-content:center;
+  justify-content:space-around;
   align-items:center;
   
   /*
@@ -97,17 +97,28 @@ body{
   color: #fff;
   pointer-events: crosshair;
 }
-.container .card .content p {  
+.container .card .content p :nth-of-type(odd) {  
   font-size: .75em;
   color: #fff;
   pointer-events: none;  
-  
+  text-align: left;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-content: center;       
+  justify-content: flex-start;
+  align-content: flex-start;       
 }
 
+.container .card .content p :nth-of-type(even) {  
+  font-size: .75em;
+  color: #fff;
+  pointer-events: none;  
+  text-align: right;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-content: flex-end;       
+}		
+		
 .card{
 
 }
@@ -262,7 +273,7 @@ body{
        data-tilt 
        data-tilt-max="20" 
        data-tilt-speed="100" 
-       data-tilt-perspective="300" 
+       data-tilt-perspective="500" 
        data-tilt-glare 
        data-tilt-max-glare="0.8" >
     <div class="content" >
