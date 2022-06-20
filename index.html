@@ -86,16 +86,12 @@ body{
 .container .card .content h2 {
   position: absolute;
   top: -100px;
-
+  right: 0px;
   font-size: 8em;
   color: rgba(255,255,255,.15);
   pointer-events: none;
   filter: blur(2px);
 }
-
-.container h2:nth-child(even) {
-  left: 0px;
-}		
 		
 .container .card h1 {  
   font-size: 1.8em;
@@ -249,7 +245,7 @@ body{
 
 <body>
 	
-<div class="background">
+<div >
    <span></span>
    <span></span>
    <span></span>
@@ -263,7 +259,17 @@ body{
   
 </div>
 
-<div class="container">
+<div class="container background">
+	   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
   <div class="card" 
        data-tilt 
        data-tilt-max="20" 
