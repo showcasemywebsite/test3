@@ -86,12 +86,16 @@ body{
 .container .card .content h2 {
   position: absolute;
   top: -100px;
-  left: 0px;
+
   font-size: 8em;
   color: rgba(255,255,255,.15);
   pointer-events: none;
   filter: blur(2px);
 }
+
+.container h2:nth-child(even) {
+  left: 0px;
+}		
 		
 .container .card h1 {  
   font-size: 1.8em;
@@ -280,7 +284,7 @@ body{
        data-tilt-glare 
        data-tilt-max-glare="0.8">
     <div class="content" >
-      <h2 align="right">SEE</h2>
+      <h2>SEE</h2>
       <h1 align="right">EXPLORE</h1>      
     </div>
   </div>
@@ -305,7 +309,7 @@ body{
        data-tilt-max-glare="0.8">
     <div class="content">
       <h2>ASK</h2>
-      <h1>QUESTIONS</h1>
+      <h1 align="right">QUESTIONS</h1>
     </div>
   </div>
 </div>
