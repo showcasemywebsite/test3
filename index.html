@@ -32,16 +32,16 @@ body{
 .container{   
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  justify-content:center;
+  justify-content:space-between;
   align-items: center;
   width:100%;  
-  heigt: 200px;
+  heigt: 100px;
 }
 .container .card{  
   position:relative;    
   width: 90%;
-  height: 100px;
-  margin: 30px;
+  height: 50px;
+  margin: 10px;
   box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
   border-radius: 0px;
   background: rgba(255,255,255,0.1);
@@ -94,7 +94,7 @@ body{
 .container .card h1 {  
   font-size: 1.8em;
   color: #fff;
-  pointer-events: none;
+  pointer-events: crosshair;
 }
 .container .card .content p {  
   font-size: .75em;
@@ -823,4 +823,3 @@ return VanillaTilt;
 	
 </body>
 </html>
-
