@@ -1,32 +1,504 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+
 	
-	<style> 
-	@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+<title>Ten Minute Call</title>
+	
+<meta property="og:title" content="Ten Minute Call" />
+<meta property="og:image" content="drama.jpg" />
+<meta property="og:description" content="Life, Love, and Personality Advisements" />
+
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<!-- SHOWCASE MY WEBSITE -->
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+
+<link href="font.css?family=Spinnaker|Lato&display=swap" rel="stylesheet">	
+<link rel="dns-prefetch" href="font.css" as="font" type="font/woff2">
+<link rel="preconnect" href="font.css" as="font" type="font/woff2" crossorigin>   
+    
+    
+    
+    
+    
+    
+
+	<style>
+	
+    body {
+    background-color: black;
+    margin: auto;
+    padding: 0;
+    }	
+	
+	h1 {
+		margin: auto;
+		padding: 20px 0 0 0;
+		text-align: center;
+		color: gainsboro;
+		font-size:1.8rem;
+		font-weight: 400px;
+		letter-spacing: .3rem;
+        font-family:  'Courier New', Consolas, monospace;
+	}
+	
+	h2 {
+		margin: auto;
+		padding: 20px 0 0 0;
+		text-align: center;
+		color: red;	
+		font-size: .8rem;
+		letter-spacing: .2rem;
+	    font-family:  'Courier New', Consolas, monospace;
+		font-display: "optional";
+		font-weight:200;
+		max-width: 80%;
+	}
+	
+	h3 {
+		margin: auto;
+		padding: 0;
+		text-align: center;
+		color: red;
+		font-size: 1.3rem;
+		letter-spacing: .4rem;
+		font-family: "Spinnaker", sans-serif;
+		font-display: "optional";
+	}
+	
+	h4 {
+		margin: auto;
+		padding: 0;
+		text-align: center;
+		color: royalblue;
+		font-size: 1.3rem;
+		letter-spacing: .4rem;
+		font-family: "Spinnaker", sans-serif;
+		font-display: "optional";
+	}	
+	
+	h5 {
+		margin: auto;
+		padding-bottom: 30px;
+		text-align: center;
+		color: red;
+		font-size: 1.3rem;
+		letter-spacing: .4rem;
+		font-family: "Spinnaker", sans-serif;
+		font-display: "optional";		
+	}	
+	
+	h6 {
+		margin: auto;
+		padding-bottom: 15px;
+		text-align: center;
+		color: royalblue;
+		font-size: .75rem;
+		letter-spacing: .1rem;
+		font-family: serif;
+		font-display: "optional";		
+	}	
+	
+	p {
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		color: gray;
+		font-size: .9rem;
+		font-family: sans-serif;
+		font-display: "optional";
+		font-weight:200;
+	}	
+	
+	.youtube {
+    	width: 50%;
+    	margin: auto;
+		padding: 0;
+		text-align: center;
+  }
   
-* {
-  margin:0;
-  padding:0;
-  box-zining: border-box;
-  font-family: 'Poppins', sans-serif;  
-}
-body{
-  align-items: center;
-  height:150px;
-  background: #161623; 
-}
-.background::before{
+    /* images */
+	    .thumb {
+  		text-align: center;
+  		width: 360px;
+  		height: 267px;
+  		display: inline-block;
+  		padding: 100px 100px;
+	}
+
+	img {
+  		padding:0px;
+	}
+
+	    .fade {
+  		animation-name: fade;
+  		animation-duration: 2s;
+	}
+
+	@keyframes fade {
+  		from {
+   		opacity: 0;
+  	}
+  		to {
+   		opacity: 1;
+  		}
+	}
+	
+    .bdays  {
+        margin: auto;
+        padding: 0px;
+        height: 900px;
+        overflow-y: hidden;
+        text-align: center;
+        background-position: top center;
+        background-image: url("/globemaxlow.jpg");
+        background-repeat: no-repeat;
+        background-size: 300px;
+    }
+
+	.world {
+		margin: auto;
+		text-align: center;
+	}	
+
+	.world > p:nth-of-type(1){
+	   	margin: auto;
+	   	padding-top: 100px;
+		text-align: center;
+		color: white;
+		font-size: 1rem;
+		letter-spacing: .8rem;
+		font-family: "Lato", sans-serif;
+		font-display: "optional";	
+	}
+
+	.world > p:nth-of-type(2){
+	   	margin: auto;
+		padding-top: 175px;
+		
+		color: white;
+		font-size: 1.3rem;
+		letter-spacing: .3rem;
+        font-family:  'Courier New', Consolas, monospace;	
+	}
+
+	article {
+		margin: auto;
+		text-align: center;
+		padding-bottom: 40px;
+	}	
+	
+	article > p:nth-of-type(1){
+	   	margin: auto;
+		min-height: 75px;
+		width: 40vw;
+		color: royalblue;
+		font-size: 1rem;
+		line-height: 1.3;
+		font-family: "Lato", sans-serif;
+		font-display: "optional";
+	}	
+	
+	article > p:nth-child(n+2){
+	    margin: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: white;
+		font-size: 1rem;
+		line-height: 1rem;
+        font-family:  'Courier New', Consolas, monospace;
+		font-display: "optional";
+		text-transform: capitalize;
+	}
+
+        #drama {
+        margin: auto;
+        padding: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+    }
+
+	main {
+		margin: auto;
+		padding: 0;
+		min-height:40vh;
+		width: 50vw;
+		text-align: center;
+	}
+	
+	main > p {
+		margin-top: 20px;
+		width: 40vw;
+		text-align: center;
+		color: white;
+		font-size: 1rem;
+		font-family: "Lato", sans-serif;
+		font-display: "optional";
+		line-height: 1.5rem;
+	}
+	
+	main > p:nth-of-type(4n){
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+		text-align: center;
+		color: royalblue;
+		color: #0076ff;
+		font-size: 1rem;
+	    font-family:  'Courier New', Consolas, monospace;
+	}	
+
+    .stars {
+        margin: auto;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+        background-image: url(blackstars3.jpg);
+	    animation: background-scroll 100s linear infinite;
+
+    }
+
+    /*  Scroll background  */
+        @keyframes background-scroll {
+        from {
+        background-position-y: -100%;
+        }
+    }
+
+
+    
+    #title {
+        padding-left: 20px;
+        left: 0;
+        right: 0;        
+        
+        text-align: center;       
+	    font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: calc(100vmax / 1500 * 100);
+        letter-spacing: 20px;        
+
+
+
+
+        background: -webkit-linear-gradient(white, #dbdde0, #38495a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-name: animCall;
+    }
+
+    #subtitle {
+        padding-top: 60px;
+        left: 0;
+        right: 0;
+        
+        text-align: center;
+	    font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        letter-spacing: 6px;
+    }
+
+    #subtitle span {
+        color: #d8d8d8;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+    }
+    
+    #subtitle span:nth-child(1) {
+        animation-name: anim10;
+    }
+    
+    #subtitle span:nth-child(2) {
+        animation-name: animFor;
+    }
+    
+    #subtitle span:nth-child(3) {
+        animation-name: anim199;
+    }
+
+    @keyframes animCall {
+        0% {
+        transform: translateY(-26px);
+        opacity: 0;
+    }
+  
+    30%, 80% {
+        letter-spacing: 40px;
+        padding-left: 40px;
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  
+    92%, 100% {
+        letter-spacing: 35px;
+        padding-left: 35px;
+        transform: translateY(-4px);
+        opacity: 0;
+        }
+    }
+    
+    @keyframes anim10 {
+        0%	, 15% {
+        transform: translateY(-26px);
+        opacity: 0;
+    }
+    
+    35%, 80% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+    92%, 100% {
+        transform: translateY(-4px);
+        opacity: 0;
+        }
+    }
+    
+    @keyframes animFor {
+        0%	, 25% {
+        transform: translateY(-26px);
+        opacity: 0;
+    }
+    
+    45%, 80% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+    92%, 100% {
+        transform: translateY(-4px);
+        opacity: 0;
+        }
+    }
+    
+    @keyframes anim199 {
+        0%	, 35% {
+        transform: translateY(-26px);
+        opacity: 0;
+    }
+  
+    55%, 80% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  
+    92%, 100% {
+        transform: translateY(-4px);
+        opacity: 0;
+        }
+    }
+
+	.keen {
+	    margin: auto;
+   		padding-top: 75px;
+	    width: 100%;
+        bottom: 0px;
+       	text-align: center; 
+	}	
+
+	.keen h3 {
+		padding-top: 5px;
+	    width: 350px;
+	    text-align: center;
+	  	font-size: 1rem; 
+		text-transform: uppercase;
+		font-weight: 200px;
+	    font-family:  'Courier New', Consolas, monospace;
+	    background-image:  url("http://www.transparenttextures.com/patterns/subtle-zebra-3d.png");
+        filter: brightness(1.75);
+	}
+	
+	.keen > p {
+	    width: 350px;
+	    text-align: center;
+		color: white;
+		font-size: .7rem;
+		font-weight:200;
+		text-align: center;
+	}		
+	
+	.keen > p:nth-of-type(2) {
+	    width: 300px;
+		font-style: italic;	
+	}
+
+    .horizon {
+        bottom: 0;
+        height: 23vw;
+        background-position: bottom;
+        background-image: url("earth.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+	.copyright {
+		margin: auto;
+		padding-bottom: 30px;
+		font-family: "Lato", serif;
+		font-display: "optional";
+		color: white;
+		font-size: .8rem;
+		text-align: center;
+	}
+
+    .buttons {
+        background-color: blanchedalmond;
+        position:fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+
+	.q {
+	    padding-bottom: 10px;
+	}
+
+	section {
+		margin: auto;
+		padding:0;
+	}
+	
+	section > p {
+		margin: auto;
+		padding-bottom: 30px;
+		text-align: center;
+		color: darkslategray;
+		font-size: .9rem;
+		font-family: sans-serif;
+		font-weight:200;
+		letter-spacing: .05rem;
+		max-width: 500px;
+	}	
+		
+
+
+
+
+
+
+
+.menu::before{
   content:'';
   position: absolute;
   top:0;
   left:0;
   width:100%;
-  height:100%;
-  background: linear-gradient(#f00,#f0f);
-  clip-path: circle(40% at right 80%);  
+  height:100px; 
 }
 
 .container{   
@@ -238,28 +710,341 @@ body{
     box-shadow: -40vmin 0 5.697609964649093vmin currentColor;
 }
 
+
+	
+
+
+
+
+
+/* media queries */
+@media all 
+	and (min-width: 769px) 
+	and (max-width: 1024px)
+ {
+     
+	.youtube {
+    	width: 70%;
+  	}
+  	
+	h1 {
+		font-size:1.4rem;
+		letter-spacing: .3rem;
+	}		
+
+	article > p:nth-of-type(1) {
+		width: 50vw;
+	}
+	
+	main {
+	    margin: auto;
+	    padding: 0;
+	 	text-align: center;
+		font-weight: 200;
+		width: 80vw;
+	}	
+	
+	main > p {
+	    margin: auto;
+		line-height: 1.5rem;
+	    padding: 20px;
+	    text-align: center;
+		width: 80vw;
+	}
+		
+	
+	/* Modal Content/Box */
+	.modal-content1, .modal-content2, .modal-content3, .modal-content4 {
+		width: 80%; /* Could be more or less, depending on screen size */	
+	}
+ }	
+		
+@media all 
+	and (min-width: 481px) 
+	and (max-width: 768px) 
+ {
+     
+	.youtube {
+    	width: 75%;
+  }		
+  
+	h1 {
+		font-size:1.2rem;
+		letter-spacing: .2rem;
+	}		
+	
+	article > p:nth-of-type(3) {
+		width: 70vw;
+	}
+
+	main {
+	    margin: auto;
+	    padding: 0;
+	 	text-align: center;
+		font-weight: 200;
+		width: 80vw;
+	}
+	
+	main > p {
+	    margin: auto;
+		line-height: 1.5rem;
+	    paddin0-top: 20px;
+	   	text-align: center;
+		width: 80vw;
+	}
+		
+
+	
+	/* Modal Content/Box */
+	.modal-content1, .modal-content2, .modal-content3, .modal-content4 {
+	width: 80%; /* Could be more or less, depending on screen size */	
+	}
+ }
+	
+@media all 
+	and (min-width: 400px) 
+	and (max-width: 480px) 
+ {
+     
+	.youtube {
+    	width: 75%;
+  }	
+  
+	h1 {
+		font-size: 1rem;
+		letter-spacing: .15rem;
+	}		
+	
+	article > p:nth-of-type(1) {
+		width: 80vw;
+	}
+
+	main {
+	    margin: auto;
+	    padding: 0;
+	 	text-align: center;
+		width: 80vw;
+	}
+	
+	main > p {
+	    margin: auto;
+		line-height: 1.5rem;
+	    padding-top: 20px;	 
+        text-align: center;
+		width: 80vw;
+	}
+		
+
+
+	
+	/* Modal Content/Box */
+	.modal-content1, .modal-content2, .modal-content3, .modal-content4 {
+		width: 80%; /* Could be more or less, depending on screen size */	
+	}
+ }
+
+	@media all  
+	and (max-width: 399px) 
+ {
+     
+	.youtube {
+    	width: 75%;
+  	}		
+  	
+	h1 {
+		font-size:.8rem;
+		letter-spacing: .15rem;
+	}		
+	
+	article > p:nth-of-type(1) {
+		width: 80vw;
+	}
+	
+	main {
+	    margin: auto;
+	    padding: 0;
+	 	text-align: center;
+		width: 80vw;
+	}	
+	
+	main > p {
+	    margin: auto;
+	    padding-top: 20px;
+		text-align: center;
+		width: 80vw;
+	}
+		
+
+	
+	/* Modal Content/Box */
+	.modal-content1, .modal-content2, .modal-content3, .modal-content4 {
+		width: 80%; /* Could be more or less, depending on screen size */	
+	}
+ }
+
+
+    
+
+    
+	
 	</style>
 	
-	
 </head>
-
 <body>
+
+
+<!-- VIDEO -->	
+<div class="youtube"><h1>all the world's a stage</h1>
+<lite-youtube videoid="ZL7qzR-Df5M"></lite-youtube></div>
+<h2>LIFE, LOVE &amp; PERSONALITY ADVISEMENTS</h2>
+
+
+
+
+<div class="bdays">
+    
+
+<!-- BDAY -->
 	
-<div >
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-  
+<div class="world" id="bday0101">
+<p >	01 JANUARY	</p>
+<p >	THE EMOTIONAL ORGANIZER	</p>
+
+<article >
+    
+    <p>	Those Lost In Their Own Myth Can Cut A Fine Figure But Generally Make Poor Human Beings</p>
+    
+<p>	Don’t Send Mixed Signals	</p>
+<p>	Be Sure Of What You Want Before You Express Your Wishes	</p>
+<p>	Share Your Emotions—Don’t Get Bottled Up Inside	</p>
+<p>	Lasting Security Is Usually An Illusion kshfg aldfhg a;dofha apohg	</p>
+
+</article>
 </div>
 
-<div class="container background">
+<div class="world" id="bday0102">
+<p>	02 JANUARY	</p>
+<p>	SELF REQUIREMENT	</p>
+
+<article >	
+
+    <p>	The Relative Weight Of Difficulties Is Largely A Function Of Our Own Perception	</p>
+
+<p>	Above All Do Not Cut Yourself Off From The World; Let Sorrows And Burdens Go	</p>
+<p>	Don’t Sign For Problems; Return Them To Sender	</p>
+<p>	Insist That Others Serve You As Well	</p>
+<p>	Don’t Deny Yourself The Very Best And Most Pleasurable Experiences That Life Offers	</p>
+
+</article>
+</div>
+
+<div class="world" id="bday0103">
+<p>	03 JANUARY	</p>
+<p>	TOTAL INVOLVEMENT	</p>
+
+<article >
+    
+    <p>	To Desire Without Any Wish For Attachment Is A High Aim	</p>
+    		
+<p>	You Don’t Always Have To Win	</p>
+<p>	Being Invulnerable Doesn’t Make You Well-Liked	</p>
+<p>	Don’t Expect Everyone To Be As Committed As You Are	</p>
+<p>	Recognize And Respect Differences	</p>
+
+</article>
+</div>
+
+<div class="world" id="bday0104">
+<p>	04 JANUARY	</p>
+<p>	THE FORMULATORS	</p>
+
+<article >
+    
+    <p>	The World Of The Unknown Must Always Be Respected	</p>
+    
+<p>	Not Everything In Life Can Be Designated Or Formulated	</p>
+<p>	Respect Others, Even If They Are On The Wrong Track	</p>
+<p>	Be Open To New Ways Of Doing Things—Loosen Up	</p>
+<p>	Improve Your Own Methods, And Don’t Be Afraid To Improvise When Necessary	</p>
+
+
+</article>
+</div>
+
+<div class="world" id="bday0104">
+<p>	_	</p>
+
+
+<article >
+    
+    <p>	_	</p>
+
+</article>
+</div>
+
+</div>
+<a href="#bday0101">Link 1</a>   
+<a href="#bday0102">Link 2</a>
+<a href="#bday0103">Link 3</a>
+<a href="#bday0104">Link 4</a>
+
+
+
+
+ 
+    
+<!-- SHOWCASE MY WEBSITE -->
+<!-- INTRO -->	
+
+<div id="drama">
+
+ <center><img class="lozad" data-src="quickmasks.gif" alt="Theater Drama Masks" width="300px"></center>   
+    
+</div>
+
+<h3>SELF DISCOVERY ENTERTAINMENT</h3>
+
+<main>
+<p>Advisements are pay-per-call conversations that give the caller feedback and support for different topics, questions, thoughts, feelings, perspectives, circumstances, choices, and outcomes.</p>
+<p>The advisement is not therapy of any kind, it’s emotional or social feedback and support within the context of entertainment.</p>
+<P>Advisors aren’t going to help you in a criminal or legal endeavor, tell you whether or not to have a child, assist you with health-related matters, or counsel you through suicidal thoughts. there are people much, much better suited to aid you with these situations – licensed professionals!</P>
+<p>ENCOURAGEMENT - GOALS - STRESS - LIFE - SELF LOVE - PERSONALITIES - NARCISSISTS - WORK - FRIENDS - RELATIONSHIPS</p>
+</main>
+
+
+
+
+<div class="stars">
+    <div id="title">
+  CALL NOW
+    </div>
+        <div id="subtitle">
+  <span>
+    10 MINUTES
+  </span>
+  <span>
+    FOR
+  </span>
+  <span>
+    $1.99
+  </span>
+        </div>
+     
+
+<div class="keen">
+<p>PAY PER CALL ENTERTAINMENT</p>
+<h3 id="1297051"><a href="https://keen.pxf.io/c/1356448/1297051/7786">Need an accurate prediction? Exclusive Offer: Get a 10 minute reading for only $1.99!</a></h3>
+<img height="0" width="0" src="https://keen.pxf.io/i/1356448/1297051/7786" style="position:absolute;visibility:hidden;" border="0" />
+<p>THIS PAGE CONTAINS AN AFFILIATE LINK AND I WILL BE COMPENSATED IF YOU MAKE A PURCHASE AFTER CLICKING THROUGH MY LINK</p>
+</div>
+
+ <div class="horizon"></div>
+ 
+</div>
+
+    
+	<div class="menu">
+<div class="container ">
 	   <span></span>
    <span></span>
    <span></span>
@@ -319,6 +1104,26 @@ body{
     </div>
   </div>
 </div>
+
+	</div>
+	
+	
+	
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.3.1/lite-youtube.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lozad"></script>
+
+	
+<script>// Initialize library
+lozad('.lozad', {
+    load: function(el) {
+        el.src = el.dataset.src;
+        el.onload = function() {
+            el.classList.add('fade')
+        }
+    }
+}).observe()
+</script>		
+
 
 <!-- at the end of the body -->
 <script type="text/javascript">
@@ -832,7 +1637,84 @@ return VanillaTilt;
 
 }());
 
+</script>		
+	
+	
+<script>
+// Get the modal
+var modal1 = document.getElementById("myModal1");
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+// When the user clicks on the button, open the modal
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
+			
+// Get the modal
+var modal2 = document.getElementById("myModal2");
+// Get the button that opens the modal
+var btn2 = document.getElementById("myBtn2");
+// When the user clicks on the button, open the modal
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+		
+// Get the modal
+var modal3 = document.getElementById("myModal3");
+// Get the button that opens the modal
+var btn3 = document.getElementById("myBtn3");
+// When the user clicks on the button, open the modal
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+	
+// Get the modal
+var modal4 = document.getElementById("myModal4");
+// Get the button that opens the modal
+var btn4 = document.getElementById("myBtn4");
+
+// When the user clicks on the button, open the modal
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal4) {
+    modal4.style.display = "none";
+  }
+}
+</script>
+
+<script>
+var walkieTalkieButton = document.querySelector('.walkie-talkie');
+walkieTalkieButton.addEventListener('mousedown', buttonDown, false);
+walkieTalkieButton.addEventListener('mouseup', buttonUp, false);
+function buttonDown() {
+  walkieTalkieButton.classList.add('down-state');
+}
+function buttonUp() {
+  walkieTalkieButton.classList.remove('down-state');
+}
 </script>	
+	
 	
 </body>
 </html>
